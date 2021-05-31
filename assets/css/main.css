@@ -433,6 +433,21 @@ footer a:hover {
   .propiedadesDestacadasCol {
     margin: 20px 0 30px 0;
   }
+  .header {
+    margin-bottom: 20px;
+  }
+  .lista {
+    line-height: 15px;
+  }
+  .logo {
+    margin-bottom: -30px;
+  }
+  .bienvenida {
+    margin-top: -30px;
+  }
+  .redes {
+    margin-bottom: 20px;
+  }
 
 }
 
@@ -442,7 +457,30 @@ footer a:hover {
 
 @media (min-width: 425px) {}
 
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+  .header {
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .logo {
+    margin: 0;
+    padding: 0;
+    margin-bottom: -25px;
+  }
+  .lista {
+    line-height: 15px;
+    padding: 0;
+  }
+  .lista ul li a {
+    margin: 0;
+    padding: 0;
+  }
+  .bienvenida {
+    margin: 0;
+    padding: 0;
+    margin-top: -30px;
+  }
+}
 
 @media (min-width: 1024px) {}
 
@@ -455,6 +493,19 @@ footer a:hover {
   }
   .colFooter1 {
     text-align: left;
+  }
+  .logo {
+    margin: 20px 0 70px 0;
+  }
+  .lista {
+    line-height: 20px;
+    margin-bottom: 130px;
+  }
+  .bienvenida {
+    padding: 20px;
+  }
+  .header {
+    margin-bottom: 0px;
   }
 }
 
