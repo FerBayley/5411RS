@@ -431,6 +431,12 @@ footer a:hover {
   .textoNumeral {
     font-size: 70px;
   }
+  .colFooter2 {
+    text-align: right;
+  }
+  .colFooter1 {
+    text-align: left;
+  }
 }
 
 @media (min-width: 2560px) {}
